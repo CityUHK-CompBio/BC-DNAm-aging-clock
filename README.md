@@ -1,6 +1,6 @@
 # The gene-level DNA methylation-based aging clock
 
-## 1.DNA methylation age prediction model
+## DNA methylation age prediction model
 
 We built a gene-level DNA methylation-based (beta value) regression model for DNA methylation age prediction. 
 
@@ -29,3 +29,5 @@ pred.age <- predict(
 # The predicted DNA methylation age in years
 DNAm.aging.clock$inverse.F(pred.age)
 ```
+
+Author: Jiang Li
